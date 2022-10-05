@@ -15,21 +15,15 @@
       3. Commonly you want to send the info to sheet that does the calculation and sends it back. Therefore, send it to your home location aka server by typing "/"
       The the "method" attribute
       1. The method attribute specifies the HTTP method to be used when submitting the form data.
-      2. The form-data can be sent as HTTP POST transaction (with method="post"). -->
-
+      2. The form-data can be sent as HTTP POST transaction (with method="post").
+      3. the app.post must match the location -->
     <label for="fnum">First Number</label>
     <input id="fnum" name='num1' type="text" placeholder="Enter your number here">
     <!-- The name attribute is essenital to complete the back end calculations -->
-
-
-
     <!-- To relate the labled to the input, the lable's for=... must match the input's id=... -->
-
     <label for="snum">Second Number</label>
     <input id="snum" name='num2' type="text" placeholder="Enter your number here">
     <!-- The name attribute is essenital to complete the back end calculations -->
-
-
     <input type="submit" value="Calculate">
   </form>
 </body>

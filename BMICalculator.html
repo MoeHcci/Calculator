@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>The BMI Calculator</title>
+  </head>
+  <body>
+    <form action="/BMICalculator.html" method="post">
+      <!-- -The action attribute defines the action to be performed when the form is submitted.
+        Usually, the form data is sent to a file on the server when the user clicks on the submit button.
+      -In our example: The action is to "post" the data to BMICalculator.html -->
+
+      <label for="weight">Weight in kg</label>
+      <input id="weight" name='weight' type="text" placeholder="Enter your weight here">
+      <label for="height">Height in meters</label>
+      <input id="height" name='height' type="text" placeholder="Enter your height here">
+      <input type="submit" value="Calculate BMI">
+    </form>
+  </body>
+</html>
